@@ -10,9 +10,9 @@ Require once:
     rtc.min =  49;              //Minute = 49
     rtc.sec =  0;               //Second = 0
     rtc.date = 17;              //17th
-    rtc.month = 8;              //Aug
+    rtc.month = 1;              //Jan
     rtc.year = 19;              //2019
-    rtc.weekDay = 7;            // Saturday: 7th day of week considering Sunday as first day.
+    rtc.weekDay = 7;            //Saturday: 7th day of week considering Sunday as first day.
 
     rtc_SetDateTime(rtc);	    //Setting the date and time of RTC module
 
