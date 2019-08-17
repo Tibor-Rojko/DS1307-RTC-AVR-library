@@ -5,8 +5,8 @@
  *
  * pinout:
  * AtMega328 <-->  DS1307
- *  PC5(SCL)		SCL
- *  PC4(SDA)		SDA
+ *  PC5(SCL)	    SCL
+ *  PC4(SDA)	    SDA
  **********************************************************************************************/
 
 #ifndef DS1307_H_
@@ -29,8 +29,8 @@ struct rtc_t
 #define DS1307_ADDR_W	0xD0			//0b11010000
 #define DS1307_ADDR_R	0xD1			//0b11010001
 
-void    rtc_Init(void);					//Initialize the ds1307 module
-void    rtc_SetDateTime(rtc_t *rtc);	//Setting the date and time of RTC module
+void    rtc_Init(void);				//Initialize the ds1307 module
+void    rtc_SetDateTime(rtc_t *rtc);		//Setting the date and time of RTC module
 void    rtc_DateTime(rtc_t *rtc);		//Reading date & time
 
 #endif 
