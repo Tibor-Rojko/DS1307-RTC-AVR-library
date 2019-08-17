@@ -1,7 +1,7 @@
 # DS1307-RTC-AVR-library
 Require once:
 
-    rtc_Init();					//Initialize the ds1307 module
+    rtc_Init();                 //Initialize the ds1307 module
 
     rtc_t rtc;                  //declare struct
 
