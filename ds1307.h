@@ -15,7 +15,7 @@
 #include <avr/io.h>
 
 //define the struct, for storing date & time values
-struct rtc_t
+typedef struct
 {
 	uint8_t sec;
 	uint8_t min;
@@ -24,7 +24,7 @@ struct rtc_t
 	uint8_t date;
 	uint8_t month;
 	uint8_t year;
-};
+}  rtc_t;
 
 #define DS1307_ADDR_W	0xD0			//0b11010000
 #define DS1307_ADDR_R	0xD1			//0b11010001
